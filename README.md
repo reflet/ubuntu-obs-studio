@@ -151,6 +151,17 @@ ubuntu_1  | Hello World
 $ docker-compose down
 ```
 
+## まとめ
+いろいろ試行錯誤したらなんとかなったとしても、属人化しそう...
+AWSの各機能を使って自動化した方が良いと判断し、検証を辞める。
+
+* [AWS Media Servicesとは何なのか](https://cloudpack.media/39357)
+* [AWS Elemental MediaLiveでMP4ファイルからライブ配信してみた](https://dev.classmethod.jp/articles/aws-elemental-medialive-mp4-pull-input/)
+* [AWS Elemental LinkからAWS Elemental MediaLiveを経由してYouTube Liveでライブ配信をしてみた！](https://dev.classmethod.jp/articles/aws-elemental-link-youtubelive/)
+* [AWS MediaLive 静的入力と動的入力](https://docs.aws.amazon.com/ja_jp/medialive/latest/ug/how-dynamic-inputs-work.html)
+* [AWS Lambda(Node.js)+FFmpegでS3の動画を編集する](https://fukatsu.tech/ffmpeg-lambda-nodejs)
+* [AWS を駆使して動画に YouTuber 感をちょい足しするソリューションを作ってみる](https://aws.amazon.com/jp/builders-flash/202008/transcribe-youtuber/?awsf.filter-name=*all)
+
 ## 補足
 OBS Studioのコマンドラインで使えるパラメータはこれかな？
 ※ [OBS Launch Parameters](https://obsproject.com/wiki/Launch-Parameters)
